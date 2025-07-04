@@ -1,11 +1,10 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import products from '../Products'
 
 function HomeScreen() {
   return (
-    <div>
-        // centralise page content AI!
+    <Container fluid="md" className="p-4">
         <h1 style={{ textAlign: 'center' }}>Our Products</h1>
         <Row>
             {products.map(product => (
@@ -18,7 +17,7 @@ function HomeScreen() {
                 </Col>
             ))}
         </Row>
-    </div>
+    </Container>
   )
 }
 
