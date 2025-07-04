@@ -1,0 +1,1 @@
+aider --model openrouter/anthropic/claude-3.5-sonnet --chat-mode architect --yes-always --cache-prompts --auto-test --stream --fancy-input --dark-mode --editor-model openrouter/anthropic/claude-3.5-sonnet --weak-model openrouter/anthropic/claude-3.5-sonnet --no-auto-commits --no-git --no-show-model-warnings --watch-files
