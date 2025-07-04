@@ -6,6 +6,7 @@ function HomeScreen() {
   return (
     <Container fluid="md" className="p-4">
         <h1 style={{ textAlign: 'center' }}>Our Products</h1>
+        // make whole row content cantralized AI!
         <Row>
             {products.map(product => (
                 <Col sm={12} md={6} lg={4} xl={3} key={product._id}>
