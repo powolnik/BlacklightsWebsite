@@ -4,7 +4,6 @@ import products from '../Products'
 
 function HomeScreen() {
   return (
-    // make whole container centralized on a webpage AI!
     <Container fluid="md" className="p-4">
         <h1 style={{ textAlign: 'center' }}>Our Products</h1>
         <Row>
