@@ -6,12 +6,11 @@ function HomeScreen() {
   return (
     <div>
         <h1>TEST</h1>
-        // lets display all images in separate columns and 64/64 pix AI! 
         <Row>
             {products.map(product => (
                 <Col sm={12} md={6} lg={4} xl={3} key={product._id}>
-                    <div>
-                        <img src={product.image} alt={product.name} />
+                    <div style={{ textAlign: 'center' }}>
+                        <img src={product.image} alt={product.name} style={{ width: '64px', height: '64px' }} />
                         <h3>{product.name}</h3>
                         <p>Product ID: {product._id}</p>
                     </div>
