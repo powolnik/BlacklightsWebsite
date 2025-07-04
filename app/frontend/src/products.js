@@ -1,7 +1,7 @@
-const products = [
+const Stages = [
     {
         '_id': '1',
-        'name': 'imie',
+        'name': 'pierszy',
         'image': '/images/01.png'
     },
     {
@@ -16,4 +16,4 @@ const products = [
     }
 ]
 
-export default products
+export default Stages

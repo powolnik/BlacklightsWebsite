@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import products from '../Products';
+import products from '../products';
+import Product from '../components/Product';
 
 const ProjectDisplay = () => {
   const backgroundStyle = {
@@ -27,16 +28,15 @@ const ProjectDisplay = () => {
         {products.map((product) => (
           <Col sm={12} md={6} lg={4} xl={3} key={product._id}>
             <div className="text-center mb-4">
-              <img 
-                src={product.image}
-                alt={product.name}
+              <Product product={product} 
+                // src={product}
+                // alt={Product}
                 style={{
                   width: '100%',
                   height: 'auto',
                   borderRadius: '8px'
                 }}
               />
-              <h3 className="mt-3">{product.name}</h3>
             </div>
           </Col>
         ))}
