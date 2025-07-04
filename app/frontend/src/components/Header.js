@@ -5,14 +5,15 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 function Header() {
   return (
     <header>
+        // if navbar expanded, position its elements to the right AI!
         <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
             <Container>    
                 <Navbar.Brand href="/">BlackLights</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/cart">cart</Nav.Link>
-                        <Nav.Link href="/login">login</Nav.Link>   
+                        <Nav.Link href="/cart"><i className="fa fa-shopping-cart"> cart</i></Nav.Link>
+                        <Nav.Link href="/login"><i className="fa fa-users"> login</i></Nav.Link>   
                     </Nav>
                 </Navbar.Collapse>
             </Container>
