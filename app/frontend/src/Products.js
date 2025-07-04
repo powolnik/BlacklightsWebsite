@@ -15,3 +15,5 @@ const products = [
         'image': '/images/03.png'
     }
 ]
+
+export default products
