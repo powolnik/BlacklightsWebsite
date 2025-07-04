@@ -5,6 +5,7 @@ import products from '../Products'
 function HomeScreen() {
   return (
     <div>
+        // centralise page content AI!
         <h1 style={{ textAlign: 'center' }}>Our Products</h1>
         <Row>
             {products.map(product => (
